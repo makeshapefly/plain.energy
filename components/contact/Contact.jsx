@@ -2,28 +2,15 @@
 
 export default function Contact() {
   return (
-    <div className="contact-area-1 space bg-theme shape-mockup-wrap">
-      <div
-        className="contact-map shape-mockup wow img-custom-anim-left animated"
-        data-wow-duration="1.5s"
-        data-wow-delay="0.2s"
-        style={{ top: "-100px", left: 0, bottom: "140px" }}
-      >
-        <iframe
-          src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=10&output=embed&iwloc=near"
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
+    <div className="space shape-mockup-wrap" style={{background: '#FFF'}}>
       <div className="container">
         <div className="row align-items-center justify-content-end">
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <div className="contact-form-wrap">
               <div className="title-area mb-30">
-                <h2 className="sec-title">Have Any Project on Your Mind?</h2>
+                <h2 className="sec-title">Organisation interested in the Platform?</h2>
                 <p>
-                  Great! We're excited to hear from you and let's start
-                  something
+                  We'd be delighted to hear from you.
                 </p>
               </div>
               <form
@@ -61,9 +48,9 @@ export default function Contact() {
                         required
                         type="text"
                         className="form-control style-border"
-                        name="website"
-                        id="website"
-                        placeholder="Website link"
+                        name="organisation"
+                        id="organisation"
+                        placeholder="Organisation"
                       />
                     </div>
                   </div>

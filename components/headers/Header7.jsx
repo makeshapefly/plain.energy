@@ -126,6 +126,7 @@ export default function Header7() {
                         height={24}
                         src="/assets/img/icon/download.svg"
                         alt="img"
+                        color="green"
                       />
                       <span className="link-effect">
                         <span className="effect-1">DOWNLOAD MY CV</span>

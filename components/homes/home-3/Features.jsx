@@ -13,7 +13,7 @@ export default function Features() {
         <Image
           width={838}
           height={778}
-          src="/assets/img/normal/why_3-1.jpg"
+          src="/assets/img/normal/solar-6799111_1280.png"
           alt="img"
         />
       </div>
@@ -22,19 +22,14 @@ export default function Features() {
           <div className="col-lg-6">
             <div className="title-area mb-45">
               <h2 className="sec-title">
-                Passionate About Creating Quality Design
+                The Challenge
               </h2>
             </div>
-            <h4>We Love What We Do</h4>
             <p>
-              We are a creative agency working with brands building insightful
-              strategy, creating unique designs and crafting value
+              Achieving the UK’s climate change goals will require changes to every single household. These changes could be disruptive and involve asking people to pay for new technologies upfront. People will have to change the way they interact with energy in their homes.
             </p>
-            <h4 className="mt-35">Why Work With Us</h4>
             <p className="mb-n1">
-              If you ask our clients what it’s like working with 36, they’ll
-              talk about how much we care about their success. For us, real
-              relationships fuel real success. We love building brands
+              Every household is going to have to make these changes - and people shouldn’t have to be climate or energy experts to understand them.
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import Awards from "@/components/about/Awards";
-import Breadcumb from "@/components/about/Breadcumb";
+import Breadcumb2 from "@/components/about/Breadcumb2";
 import Clients from "@/components/about/Clients";
 import Contact from "@/components/about/Contact";
 import Facts from "@/components/about/Facts";
@@ -19,8 +19,8 @@ export default function AboutPage() {
   return (
     <>
       <Header1 />
-      <Breadcumb />
-      <Facts />
+      <Breadcumb2 />
+      <Features />
     </>
   );
 }

@@ -28,19 +28,21 @@ export default function SideMenu({ isOpen, setIsOpen }) {
           <div className="widget-about">
             <div className="footer-logo">
               <Link scroll={false} href="/">
-                <Image
-                  width={86}
-                  height={24}
-                  src="/assets/img/logo-white.svg"
-                  alt="Ovation"
-                />
+                <div style={{ color: '#FFF', fontSize: '20px' }}>
+                  <Image
+                    width={50}
+                    height={50}
+                    src="/assets/img/logo.png"
+                    alt="icon"
+                  />
+                  &#160;plain.energy</div>
               </Link>
             </div>
             <p className="about-text">
-              We are digital agency that helps businesses develop immersive and
-              engaging
+              The Platform for every household in England to start the plain english domestic energy or retrofit journey with local partners.
+              With built-in Energy Intelligence.
             </p>
-            <div className="sidebar-wrap">
+            {/*<div className="sidebar-wrap">
               <h6>27 Division St, New York,</h6>
               <h6>NY 10002, USA</h6>
             </div>
@@ -54,17 +56,8 @@ export default function SideMenu({ isOpen, setIsOpen }) {
             </div>
             <div className="social-btn style2">
               <MobileMenuSocials />
-            </div>
+            </div>*/}
           </div>
-        </div>
-        <div className="d-flex justify-content-end">
-          <Link
-            scroll={false}
-            href="/contact"
-            className="chat-btn gsap-magnetic"
-          >
-            Let’s Talk with us
-          </Link>
         </div>
       </div>
     </div>

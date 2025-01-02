@@ -50,7 +50,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  max-width: 254px;
+  //max-width: 254px;
   img {
     flex: none;
   }
@@ -76,7 +76,7 @@
   color: $title-color;
   font-weight: 600;
   letter-spacing: -3px;
-  font-size: 120px;
+  font-size: 70px;
 }
 .hero-text {
   font-size: 18px;

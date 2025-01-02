@@ -60,9 +60,8 @@ export default function Header1() {
    
     ============================== */}
       <div
-        className={`mobile-menu-wrapper ${
-          mobileMenuOpen ? "body-visible" : ""
-        } `}
+        className={`mobile-menu-wrapper ${mobileMenuOpen ? "body-visible" : ""
+          } `}
       >
         <div className="mobile-menu-area">
           <button
@@ -113,9 +112,16 @@ export default function Header1() {
             <div className="container-fluid">
               <div className="row align-items-center justify-content-between">
                 <div className="col-auto">
-                  <div className="header-logo">
+                  <div className="header-logo" style={{paddingTop: 5}}>
                     <Link scroll={false} href="/">
-                      <p>plain.energy</p>
+                      <div style={{ color: 'black', fontSize: '20px' }}>
+                        <Image
+                          width={50}
+                          height={50}
+                          src="/assets/img/logo.png"
+                          alt="icon"
+                        />
+                        &#160;plain.energy</div>
                     </Link>
                   </div>
                 </div>

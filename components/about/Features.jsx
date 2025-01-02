@@ -10,31 +10,22 @@ export default function Features() {
         data-wow-delay="0.2s"
         style={{ top: "-100px", right: "0px", bottom: "140px" }}
       >
-        <Image
-          width={838}
-          height={778}
-          src="/assets/img/normal/why_3-1.jpg"
-          alt="img"
-        />
       </div>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="title-area mb-45">
               <h2 className="sec-title">
-                Passionate About Creating Quality Design
+              A safe marketplace for all
               </h2>
             </div>
-            <h4>We Love What We Do</h4>
-            <p>
-              We are a creative agency working with brands building insightful
-              strategy, creating unique designs and crafting value
-            </p>
-            <h4 className="mt-35">Why Work With Us</h4>
+            <h4 className="mt-35">People struggle to find the information and support they need.</h4>
             <p className="mb-n1">
-              If you ask our clients what it’s like working with 36, they’ll
-              talk about how much we care about their success. For us, real
-              relationships fuel real success. We love building brands
+            “Householders told us that navigating the current market demands a level of knowledge 
+            they do not have. When they search online for information on home energy improvements they often 
+            struggle to find relevant and useful information from credible independent sources. 
+            They feel that they are left to their own devices to become experts, and are overwhelmed by the 
+            smallprint and potential pitfalls of a technology.”
             </p>
           </div>
         </div>

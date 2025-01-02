@@ -1,34 +1,30 @@
 export const faqs = [
   {
     id: 1,
-    question: `Branding Design
+    question: `Homeowners
 `,
-    answer: `We design high quality websites that make users come back
-            for more. A good website tells a story that will make
-            users fully immerse themselves operating`,
+    answer: `Homeowners enter a postcode and street number to view their 
+              Plain Energy dashboard for their property.`,
   },
   {
     id: 2,
-    question: `Illustration Modelling
+    question: `Private Companies
 `,
-    answer: `We design high quality websites that make users come back
-            for more. A good website tells a story that will make
-            users fully immerse themselves operating`,
+    answer: `Assessors and installers working for private companies
+              can collaborate with customers through the Platform.`,
   },
   {
     id: 3,
-    question: `Website Development
+    question: `Not-for-profits
 `,
-    answer: `We design high quality websites that make users come back
-            for more. A good website tells a story that will make
-            users fully immerse themselves operating`,
+    answer: `Organisations working in this space can track conversations and home visits 
+              with households, and report on overall progress.`,
   },
   {
     id: 4,
-    question: `Digital Marketing`,
-    answer: `We design high quality websites that make users come back
-            for more. A good website tells a story that will make
-            users fully immerse themselves operating`,
+    question: `Local Authorities`,
+    answer: `Councils can create, contribute to and report on programmes that lead to
+              positive outcomes towards goals and/or targets.`,
   },
 ];
 
@@ -68,19 +64,15 @@ export const faqs2 = [
 export const faqs3 = [
   {
     id: 1,
-    question: `Branding Design
+    question: `Collaborate
 `,
-    answer: `We design high quality websites that make users come back
-            for more. A good website tells a story that will make
-            users fully immerse themselves operating`,
+    answer: `Customers, colleagues and partner organisations on one platform.`,
   },
   {
     id: 2,
-    question: `Illustration Modelling
+    question: `Schedule Appointments
 `,
-    answer: `We design high quality websites that make users come back
-            for more. A good website tells a story that will make
-            users fully immerse themselves operating`,
+    answer: `Communicate `,
   },
   {
     id: 3,

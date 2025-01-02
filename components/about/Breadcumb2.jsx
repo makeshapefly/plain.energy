@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Breadcumb() {
+export default function Breadcumb2() {
   return (
     <div
       className="breadcumb-wrapper"
@@ -8,7 +8,7 @@ export default function Breadcumb() {
     >
       <div className="container">
         <div className="breadcumb-content">
-          <h1 className="breadcumb-title">The Macro Problem</h1>
+          <h1 className="breadcumb-title">The Micro Problem</h1>
         </div>
       </div>
     </div>

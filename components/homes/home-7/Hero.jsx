@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import homeVideo from '/videos/home-video.mp4';
+import BackgroundVideo from 'next-video/background-video';
 
 export default function Hero() {
   return (
