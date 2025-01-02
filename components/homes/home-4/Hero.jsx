@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import homeVideo from '/videos/home-video.mp4';
-import BackgroundVideo from 'next-video/background-video';
 
 export default function Hero() {
   return (
@@ -11,8 +9,6 @@ export default function Hero() {
         className="hero-4-thumb img-custom-anim-left wow animated shape-mockup"
         style={{ left: "0px" }}
       >
-        <BackgroundVideo src={homeVideo} loop={true} width={838} height={730}>
-        </BackgroundVideo>
       </div>
       <div className="bg-theme">
         <div className="container">

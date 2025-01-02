@@ -1,10 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Video from 'next-video';
-import homeVideo from '/videos/home-video.mp4';
-import BackgroundVideo from 'next-video/background-video';
-//import video from '../../../public/assets/img/netzero/home-video.mp4'
 
 export default function About() {
   return (
