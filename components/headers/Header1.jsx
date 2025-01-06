@@ -73,9 +73,9 @@ export default function Header1() {
           <div className="mobile-logo">
             <Link scroll={false} href="/">
               <Image
-                width={86}
-                height={24}
-                src="/assets/img/logo.svg"
+                width={150}
+                height={30}
+                src="/assets/img/logo2.png"
                 alt="Ovation"
               />
             </Link>
@@ -84,21 +84,6 @@ export default function Header1() {
             <ul>
               <MobileNav />
             </ul>
-          </div>
-          <div className="sidebar-wrap">
-            <h6>27 Division St, New York,</h6>
-            <h6>NY 10002, USA</h6>
-          </div>
-          <div className="sidebar-wrap">
-            <h6>
-              <a href="tel:1800123654987">+1 800 123 654 987 </a>
-            </h6>
-            <h6>
-              <a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a>
-            </h6>
-          </div>
-          <div className="social-btn style3">
-            <MobileMenuSocials />
           </div>
         </div>
       </div>
@@ -116,12 +101,12 @@ export default function Header1() {
                     <Link scroll={false} href="/">
                       <div style={{ color: 'black', fontSize: '20px' }}>
                         <Image
-                          width={50}
+                          width={200}
                           height={50}
-                          src="/assets/img/logo.png"
+                          src="/assets/img/logo2.png"
                           alt="icon"
                         />
-                        &#160;plain.energy</div>
+                        </div>
                     </Link>
                   </div>
                 </div>

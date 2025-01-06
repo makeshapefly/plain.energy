@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Bs1CircleFill } from "react-icons/bs";
+import { Bs2CircleFill } from "react-icons/bs";
+
 
 export default function Hero() {
   return (
@@ -10,7 +13,7 @@ export default function Hero() {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="hero-title wow img-custom-anim-left animated">
-                Domestic Energy Intelligence
+                Energy and Retrofit. <br/>In Plain English.
               </h1>
 
               <h1 className="hero-title text-lg-end wow img-custom-anim-right animated">
@@ -18,8 +21,14 @@ export default function Hero() {
               </h1>
             </div>
             <div className="col-lg-6">
-              <p className="hero-text wow img-custom-anim-right animated">
-                The Platform for every household in England to start the <b>plain english</b> domestic energy or retrofit journey with local partners.<br></br>With built-in <u>Energy Intelligence.</u>
+              <p className="hero-text wow img-custom-anim-right animated" style={{paddingRight: 20}}>
+                For any person in every household.
+                <br/><br/>
+                <Bs1CircleFill /> Start with your postcode to get your energy dashboard.
+                <br/>
+                <Bs2CircleFill /> Work with local energy groups, if you choose, to save energy, profit from energy or start a retrofit journey.
+                <br/> <br/>
+                Nobody left behind.
               </p>
               <div className="btn-group fade_right">
                 <Link
@@ -35,7 +44,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="hero-year-tag wow img-custom-anim-left animated" style={{ marginTop: 60 }}>
+              <div className="hero-year-tag wow img-custom-anim-left animated" style={{ marginTop: 25 }}>
                 <Image
                   width={40}
                   height={40}

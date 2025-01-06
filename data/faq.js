@@ -15,13 +15,20 @@ export const faqs = [
   },
   {
     id: 3,
+    question: `Local Energy Groups
+`,
+    answer: `Local Energy Groups can reach customers to provide advice, consultations,
+              referrals and/or connect to new energy and retrofit schemes.`,
+  },
+  {
+    id: 4,
     question: `Not-for-profits
 `,
     answer: `Organisations working in this space can track conversations and home visits 
               with households, and report on overall progress.`,
   },
   {
-    id: 4,
+    id: 5,
     question: `Local Authorities`,
     answer: `Councils can create, contribute to and report on programmes that lead to
               positive outcomes towards goals and/or targets.`,

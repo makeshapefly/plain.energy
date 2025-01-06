@@ -121,8 +121,8 @@ export default function Nav() {
         </li>
       ))}
 
-      <div style={{ width: 90, paddingLeft: 30, marginTop: 4, marginRight: -16, fontFamily: '__Unbounded_97d819', fontWeight: 600, fontSize: '14px' }}>
-        Sign In
+      <div style={{ width: 140, paddingLeft: 30, marginTop: 4, marginRight: -16, fontFamily: '__Unbounded_97d819', fontWeight: 600, fontSize: '14px' }}>
+        Get Started
       </div>
       <div style={{ width: 40, paddingLeft: 20, marginTop: 4 }}>
         <a class="" href="/contact">

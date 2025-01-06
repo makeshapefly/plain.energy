@@ -6,6 +6,7 @@ import Faq from "@/components/homes/home-1/Faq";
 import Features from "@/components/homes/home-3/Features";
 import Hero from "@/components/homes/home-1/Hero";
 import Contact from "@/components/contact/Contact";
+import Steps from "@/components/homes/home-5/Steps";
 
 export const metadata = {
   title: "Home 1 || Frisk - Creative Agency & Portfolio Nextjs Template",
@@ -19,6 +20,7 @@ export default function HomePage1() {
       <About />
       <Faq />
       <Features />
+      <Steps />
       <Contact />
     </>
   );
